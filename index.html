@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sitayisyen.com</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width",initial-scale=1>
+</head>
+<body>
+	<header class="box">
+	<img src="images/logo.png" class="logo" alt="logo sit ayisyen">
+	<div class="menu_btn" onclick="showMenu();" ondblclick="hideMenu();"><div class="burger_btn " ></div></div>
+	
+	<nav id="toggleNav">
+		<ul>
+		<li><a href="#"> Element 1</a></li>
+		<li><a href="#"></a>Element 2</li>
+		<li><a href="#"></a>Element 3</li>
+		</ul>
+	</nav>
+	</header>
+	<section class="content box">
+	<div class="banner">
+		<p>BYEN VINI</p>
+		<div class="rechech">
+			<input type="search" value="" placeholder="antre nin sit ou vle a">
+			<button type="submit"> <i class=" fas fa-search"></i></button>
+		</div>
+		
+	</div>
+	<!--sa se yon lot section -->
+	<div class="about">
+		<h2>KISA SIT AYISYEN YE</h2>
+		<img src="images/konfyans.png" alt="imaj">
+		<p><em>Sit Ayisyen </em> se yon sevis ki la pou mete 
+		disponib tout sit ayisyen kreye pou sevi ayisyen parey yo</p>
+	</div>
+	<br>
+	<div class="validasyon about">
+		<h2> SIT AYISYEN VALIDE </h2>
+		<img src="images/valide.png" alt="">
+		<p><em>Sit Ayisyen </em> valide pa tout moun ki 
+		nan koze entenet , si sit paw la pa nan lis la 
+	li pa valide</p>
+	</div>
+
+	<div class="about kategori">
+		<h2>KATEGORI SIT YO</h2>
+		<div class="linkContainer">
+			<a href="#teknoloji"><i class=" fas fa-laptop "></i> Teknoloji </a>
+			<a href="#"> <i class="fas fa-book"></i> Edikasyon</a>
+			<a href="#"> <i class="fas fa-gamepad "></i> Divetisman</a>
+			<a href="#"> <i class="fas fa-people-carry"></i> Sevis</a>
+			<a href="#"> <i class="  fas fa-newspaper"></i> Blog</a>
+		
+		</div>
+	</div>
+	<!--sa se gran container a-->
+	<div class="about cardContainer" id="teknoloji">
+
+	<!--yon kategori komanse la (teknoloji)-->
+		<h2>TEKNOLOJI</h2>
+
+		<!--yon premye card (item)-->
+		<div class="card" id="card_1">
+			<h3> kozetek</h3>
+			<a href="www.kozeteknoloji.com" class="webLink">
+				www.kozeteknoloji.com
+			</a>
+			<P class="detay">Se yon sit ki pale sou koze Teknoloji.</P>
+		</div>
+		<!--yon dezyem card-->
+		<div class="card" id="card_2">
+			<h3> tichaiti </h3>
+			<a href="www.tichaiti.com" class="webLink">
+				www.tichaiti.com
+			</a>
+			<P class="detay">Se yon sit ki pale sou koze programasyon.</P>
+		</div>
+
+	</div>
+	</section>
+	<footer class="box">
+		<div class="social">
+		<a href="#"> <i class=" fab fa-facebook-square"></i></a>
+		<a href="#"> <i class="fab fa-github-square"></i></a>
+		<a href="#"> <i class=" fab fa-instagram"></i></a>
+		<a href="#"> <i class="  fab fa-linkedin"></i> </a>
+		</div>
+		<p>sit sa kreye pa <br> Berny Charles
+		<br>soti nan premye liy kod la ;) </p>
+	</footer>
+<script>
+	function showMenu(){
+		document.getElementById("toggleNav").style.left="0";
+	}
+	function hideMenu(){
+		document.getElementById("toggleNav").style.left="-101vw";
+	}
+
+
+
+</script>
+
+</body>
+</html>
